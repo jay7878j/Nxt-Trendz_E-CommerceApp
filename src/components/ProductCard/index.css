@@ -1,0 +1,70 @@
+.product-info-container {
+  padding: 10px;
+}
+
+.product-heading {
+  font-size: 22px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.product-brand {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.product-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-price {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.product-rating {
+  background-color: #0967d2;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  width: 55px;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.rating-icon {
+  margin-left: 5px;
+}
+
+.prime-deals-product-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.product-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .prime-deals-product-item {
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px gray;
+    margin-right: 28px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+
+  .product-img {
+    width: 100%;
+    border-radius: 0;
+  }
+}

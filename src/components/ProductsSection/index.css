@@ -1,0 +1,13 @@
+.all-products-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+  /* border: 1px solid red; */
+}
+
+@media (min-width: 768px) {
+  .all-products-container {
+    flex-direction: row;
+  }
+}

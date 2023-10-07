@@ -1,0 +1,157 @@
+.product-details-route-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.product-details-container {
+  width: 90%;
+  max-width: 1100px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.product-details-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.product-details-img {
+  width: 90%;
+  align-self: center;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 23px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.product-pricing {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product-reviews-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.reviews {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.product-description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.availability {
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.available {
+  color: #475569;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.hr-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+}
+
+.count-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+.count-icon {
+  width: 26px;
+  height: 26px;
+  margin-top: 2px;
+  color: #1e293b;
+}
+
+.count {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.add-to-cart-btn {
+  width: 140px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #0967d2;
+  font-size: 17px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.similar-products-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.similar-products-heading {
+  font-size: 30px;
+  color: #1e293b;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .product-details-card {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .product-details-img {
+    width: 40%;
+    height: 550px;
+  }
+
+  .product-info {
+    width: 35%;
+    margin-left: 25px;
+  }
+
+  .product-title {
+    font-size: 35px;
+  }
+}

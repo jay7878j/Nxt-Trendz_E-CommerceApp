@@ -1,0 +1,35 @@
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.no-items-checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.checkout-img {
+  width: 260px;
+}
+
+.checkout-heading {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #1e293b;
+  font-size: 28px;
+}
+
+.checkout-description {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+}
